@@ -1,5 +1,7 @@
 const Joi = require("joi");
 
+const { test } = require("vitest");
+
 const schema = Joi.object({
     a: Joi.string().min(10)
 })
@@ -66,5 +68,5 @@ test('attempt Funct', () => {
        console.error(error.message);
         
     }
-    
+
 })
