@@ -1,0 +1,30 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "test": "vitest --coverage",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "commit": "^0.0.4",
+    "joi": "^17.13.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/coverage-istanbul": "^2.1.2",
+    "@vitest/coverage-v8": "^2.1.2",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^15.11.7",
+    "jsdom": "^25.0.1",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5",
+    "vitest": "https://pkg.pr.new/vitest@"
+  }
+}
